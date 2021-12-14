@@ -1,0 +1,57 @@
+.sidebar-wrapper {
+  position: fixed;
+  min-height: 100vh !important;
+  z-index: 100;
+}
+.sidebar-header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-wrapper h4 {
+  font-size: 16px;
+}
+.brandName {
+  display: flex;
+  align-items: center;
+}
+.brandName svg {
+  font-size: 30px;
+  margin-right: 12px;
+}
+.badge {
+  width: 100% !important;
+  text-align: left !important;
+  font-weight: 500 !important;
+  display: flex !important;
+  padding: 0.34rem 0.65em !important;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.badge svg {
+  background: #4da492;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 2px;
+  color: white;
+}
+.del-icon {
+  background: transparent !important;
+  color: red !important;
+  padding: 0 !important;
+  margin-right: 10px;
+}
+.message {
+  display: flex;
+  justify-content: space-between;
+}
+.message .badge {
+  width: auto !important;
+  padding: 1.34rem 6rem 1.3rem 1.3rem !important;
+}
+.sidebar-wrapper button {
+  width: 100% !important;
+  margin-top: 70px;
+}

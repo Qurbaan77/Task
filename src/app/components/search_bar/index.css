@@ -1,0 +1,31 @@
+.searchBox {
+  padding: 0 1.5rem;
+}
+.searchBox input {
+  width: 100%;
+  border-radius: 20px;
+  padding: 8px 30px;
+  outline: none;
+  border: none;
+  background-color: #f3f5f9;
+}
+.select-all {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.select-all input {
+  width: 40px;
+}
+
+.select-all svg {
+  background-color: #ccc;
+  padding: 6px;
+  font-size: 22px;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.select {
+  background-color: #4da492 !important;
+}

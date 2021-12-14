@@ -1,0 +1,27 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.plus-btn {
+  border-radius: 50% !important;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+button {
+  background-color: #4da492 !important;
+  border: none !important;
+}
+.btn {
+  transition: none !important;
+}
+.btn-primary:focus {
+  box-shadow: none !important;
+}

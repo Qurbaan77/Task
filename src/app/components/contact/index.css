@@ -1,0 +1,59 @@
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.contact-information-wrapper {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.contact-checkbox {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.select-btn {
+  background-color: #ccc !important;
+  border-radius: 50% !important;
+  padding: 2px 7px !important;
+}
+.select {
+  border-radius: 50% !important;
+  padding: 2px 7px !important;
+}
+.contact-checkbox svg {
+  font-size: 12px;
+  color: #fff;
+}
+.avatar-wrapper {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1rem;
+}
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+h5 {
+  font: bold 14px/14px sans-serif;
+}
+p {
+  font: normal 11px/14px sans-serif;
+  color: gray;
+}
+.dropdown {
+  display: inline-block !important;
+  margin-right: 30px !important;
+}
+.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+.dropdown-toggle {
+  border-radius: 1.25rem !important;
+}
